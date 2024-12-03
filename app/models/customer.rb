@@ -10,4 +10,5 @@ class Customer < ApplicationRecord
   end
 
   enum :status, { normal: 0, withdrawn: 1, banned: 2 }
+  has_many :cart_items, dependent: :destroy
 end
