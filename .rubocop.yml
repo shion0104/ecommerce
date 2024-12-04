@@ -21,3 +21,6 @@ Style/Documentation:
 Metrics/BlockLength:
   Exclude:
     - "config/routes.rb"
+
+Metrics/MethodLength:
+  Max: 40
