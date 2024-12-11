@@ -24,3 +24,6 @@ Metrics/BlockLength:
 
 Metrics/MethodLength:
   Max: 40
+
+Metrics/AbcSize:
+  Max: 35
